@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+}
+
+.chat-container {
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.message-content {
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 18px;
+    line-height: 1.4;
+}
+
+.message.user {
+    justify-content: flex-end;
+}
+
+.message.user .message-content {
+    background: hotpink;
+    color: white;
+    border-bottom-right-radius: 0;
+}
+
+.message.bot .message-content {
+    background: #f1f3f4;
+    color: #202124;
+    border-bottom-left-radius: 0;
+}
+
+.input-form {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.input-form input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-form button {
+    margin-left: 10px;
+    padding: 0 20px;
+    background: hotpink;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.input-form button:hover {
+    background: hotpink;
+}
