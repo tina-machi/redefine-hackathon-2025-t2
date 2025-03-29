@@ -25,6 +25,7 @@ Google Gemini API Key – Get it here https://aistudio.google.com/apikey (free t
 1. Clone the repo
 
 git clone https://github.com/tina-machi/redefine-hackathon-2025-t2.git
+
 cd [project-folder]
 
 3. Install dependencies
